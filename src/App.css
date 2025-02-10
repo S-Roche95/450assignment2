@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  
+  
+}
+
+.top {
+  background-color: #f4f4f4;
+  border-bottom: 8px solid #ffc000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  border-bottom: 1px solid black;
+}
+
+.experience {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid black;
+}
+
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  border-bottom: 1px solid black;
+}
+
+.education {
+  display: flex;
+  justify-content: flex-start;
+}
+.left-part {
+  margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
